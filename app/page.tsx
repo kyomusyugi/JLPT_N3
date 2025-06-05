@@ -2,10 +2,12 @@
 
 import { useState } from "react";
 import { words_01 } from "@/lib/words_01";
+import { words_02 } from "@/lib/words_02";
 import QuizPage from "@/components/quizpage";
 
 const units = {
   "Unit 01": words_01,
+  "Unit 02": words_02,
 };
 
 export default function HomePage() {
