@@ -22,7 +22,7 @@ export default function HomePage() {
 
   return (
     <div className="p-6 max-w-md mx-auto">
-      <h1 className="text-2xl font-bold mb-6 text-center">JLPT N4 퀴즈</h1>
+      <h1 className="text-2xl font-bold mb-6 text-center">JLPT N3 퀴즈</h1>
       <p className="mb-4 text-center text-gray-600">풀고 싶은 유닛을 선택하세요:</p>
       <div className="space-y-2">
         {Object.keys(units).map((unitName) => (
