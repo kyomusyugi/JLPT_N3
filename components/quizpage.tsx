@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, KeyboardEvent } from "react";
+import { useState, useEffect, useRef, KeyboardEvent } from "react";
 
 export type Word = {
   kanji: string;
@@ -35,6 +35,7 @@ export default function QuizPage({
   const [answers, setAnswers] = useState<AnswerRecord[]>([]);
   const [showResult, setShowResult] = useState(false);
   const [isComposing, setIsComposing] = useState(false);
+  const kanjiInputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
     const shuffled = shuffle(words);
@@ -106,12 +107,15 @@ export default function QuizPage({
     } else {
       setShowResult(true);
     }
+
+    setTimeout(() => {
+      kanjiInputRef.current?.focus();
+    }, 0);
   };
 
   const handleKeyDown = (e: KeyboardEvent<HTMLDivElement>) => {
     if (e.key === "Enter" && !isComposing) {
       e.preventDefault();
-
       if (!showFeedback) {
         handleSubmit();
       } else {
@@ -187,6 +191,7 @@ export default function QuizPage({
       </div>
 
       <input
+        ref={kanjiInputRef}
         type="text"
         placeholder="뜻 입력"
         value={userKanji}
