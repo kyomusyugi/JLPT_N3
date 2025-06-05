@@ -37,7 +37,7 @@ export const words_01: Word[] = [
   { kanji: "難しい", hiragana: "むずかしい", meaning: "어렵다" },
   { kanji: "夕日", hiragana: "ゆうひ", meaning: "석양" },
   { kanji: "有名だ", hiragana: "ゆうめいだ", meaning: "유명하다" },
-  { kanji: "容器", hiragana: "ようき", meaning: "용기" },
+  { kanji: "容器", hiragana: "ようき", meaning: "용기, 물건을 담는 그릇" },
   { kanji: "過去", hiragana: "かこ", meaning: "과거" },
   { kanji: "悲しい", hiragana: "かなしい", meaning: "슬프다" },
   { kanji: "恋しい", hiragana: "こいしい", meaning: "그립다" },
