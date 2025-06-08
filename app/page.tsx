@@ -3,11 +3,13 @@
 import { useState } from "react";
 import { words_01 } from "@/lib/words_01";
 import { words_02 } from "@/lib/words_02";
+import { words_03 } from "@/lib/words_03";
 import QuizPage from "@/components/quizpage";
 
 const units = {
   "Unit 01": words_01,
   "Unit 02": words_02,
+  "Unit 03": words_03,
 };
 
 export default function HomePage() {
