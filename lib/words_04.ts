@@ -57,7 +57,7 @@ export const words_04: Word[] = [
   { kanji: "結ぶ", hiragana: "むすぶ", meaning: "잇다, 묶다" },
   { kanji: "案内", hiragana: "あんない", meaning: "안내" },
   { kanji: "痛い", hiragana: "いたい", meaning: "아프다" },
-  { kanji: "解決", hiragana: "かいける", meaning: "해결" },
+  { kanji: "解決", hiragana: "かいけつ", meaning: "해결" },
   { kanji: "観光", hiragana: "かんこう", meaning: "관광" },
   { kanji: "気温", hiragana: "きおん", meaning: "기온" },
   { kanji: "券", hiragana: "けん", meaning: "권, 표" },
