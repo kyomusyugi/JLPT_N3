@@ -6,6 +6,7 @@ import { words_02 } from "@/lib/words_02";
 import { words_03 } from "@/lib/words_03";
 import { words_04 } from "@/lib/words_04";
 import { words_05 } from "@/lib/words_05";
+import { words_06 } from "@/lib/words_06";
 import QuizPage from "@/components/quizpage";
 
 const units = {
@@ -14,6 +15,7 @@ const units = {
   "기출 어휘 3": words_03,
   "기출 어휘 4": words_04,
   "기출 어휘 5": words_05,
+  "기출 어휘 6": words_06,
 };
 
 export default function HomePage() {
