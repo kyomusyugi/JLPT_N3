@@ -9,11 +9,11 @@ import { words_05 } from "@/lib/words_05";
 import QuizPage from "@/components/quizpage";
 
 const units = {
-  "Unit 01": words_01,
-  "Unit 02": words_02,
-  "Unit 03": words_03,
-  "Unit 04": words_04,
-  "Unit 05": words_05,
+  "기출 어휘 1": words_01,
+  "기출 어휘 2": words_02,
+  "기출 어휘 3": words_03,
+  "기출 어휘 4": words_04,
+  "기출 어휘 5": words_05,
 };
 
 export default function HomePage() {
